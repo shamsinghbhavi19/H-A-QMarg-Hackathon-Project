@@ -1,0 +1,42 @@
+[
+  {
+    "id": "help-1",
+    "name": "National Legal Services Authority (NALSA) Helpline",
+    "number": "15100",
+    "category": "Free Legal Aid",
+    "operatingHours": "24/7",
+    "description": "Direct government helpline providing free legal advice, counseling, and assistance to eligible marginalized citizens under the Legal Services Authorities Act."
+  },
+  {
+    "id": "help-2",
+    "name": "Women Helpline (NCW)",
+    "number": "7827170170",
+    "category": "Women Empowerment & Safety",
+    "operatingHours": "24/7",
+    "description": "National Commission for Women helpline providing support, shelter referrals, and police coordination to women facing violence or harassment."
+  },
+  {
+    "id": "help-3",
+    "name": "Childline India Helpline",
+    "number": "1098",
+    "category": "Child Protection",
+    "operatingHours": "24/7",
+    "description": "A nationwide, toll-free, 24-hour emergency phone outreach service for children in need of care and protection."
+  },
+  {
+    "id": "help-4",
+    "name": "National Consumer Helpline",
+    "number": "1915",
+    "category": "Consumer Rights",
+    "operatingHours": "8:00 AM - 8:00 PM",
+    "description": "Under the Ministry of Consumer Affairs, handles queries, grievances, and complaints regarding consumer rights violation and corporate fraud."
+  },
+  {
+    "id": "help-5",
+    "name": "Senior Citizen National Helpline (Elderline)",
+    "number": "14567",
+    "category": "Elderly Support",
+    "operatingHours": "8:00 AM - 8:00 PM",
+    "description": "Toll-free helpline providing information, guidance, emotional support, and rescue services to senior citizens nationwide."
+  }
+]

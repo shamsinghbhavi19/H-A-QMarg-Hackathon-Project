@@ -1,0 +1,305 @@
+{
+  "states": [
+    {
+      "id": "up",
+      "name": "Uttar Pradesh",
+      "districts": ["Lucknow", "Kanpur", "Varanasi", "Prayagraj", "Agra", "Meerut"]
+    },
+    {
+      "id": "bihar",
+      "name": "Bihar",
+      "districts": ["Patna", "Gaya", "Muzaffarpur", "Bhagalpur", "Darbhanga"]
+    },
+    {
+      "id": "mp",
+      "name": "Madhya Pradesh",
+      "districts": ["Indore", "Bhopal", "Jabalpur", "Gwalior", "Ujjain"]
+    },
+    {
+      "id": "rajasthan",
+      "name": "Rajasthan",
+      "districts": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Ajmer"]
+    },
+    {
+      "id": "jharkhand",
+      "name": "Jharkhand",
+      "districts": ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro"]
+    },
+    {
+      "id": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "districts": ["Raipur", "Bilaspur", "Durg", "Bhilai"]
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "districts": ["Bhubaneswar", "Cuttack", "Puri", "Sambalpur"]
+    },
+    {
+      "id": "assam",
+      "name": "Assam",
+      "districts": ["Guwahati", "Dibrugarh", "Silchar", "Jorhat"]
+    }
+  ],
+  "legalIssues": [
+    {
+      "id": "maintenance",
+      "name": "Maintenance Claim",
+      "nameHi": "भरण-पोषण"
+    },
+    {
+      "id": "domestic-violence",
+      "name": "Domestic Violence",
+      "nameHi": "घरेलू हिंसा"
+    },
+    {
+      "id": "divorce",
+      "name": "Divorce",
+      "nameHi": "तलाक"
+    },
+    {
+      "id": "dowry",
+      "name": "Dowry Harassment",
+      "nameHi": "दहेज उत्पीड़न"
+    },
+    {
+      "id": "custody",
+      "name": "Child Custody",
+      "nameHi": "बच्चे की custody"
+    },
+    {
+      "id": "property",
+      "name": "Property Rights",
+      "nameHi": "संपत्ति अधिकार"
+    },
+    {
+      "id": "harassment",
+      "name": "Workplace Harassment",
+      "nameHi": "कार्यस्थल उत्पीड़न"
+    }
+  ],
+  "issueGuidance": {
+    "maintenance": {
+      "courtType": "Family Court or Judicial Magistrate",
+      "law": "Section 125 CrPC / Section 20 of DV Act, 2005",
+      "summary": "You can claim monthly financial support from your spouse if you are unable to maintain yourself.",
+      "steps": [
+        "Visit the Family Court in your district (or Judicial Magistrate Court if no Family Court exists).",
+        "Obtain the maintenance application form from the filing counter.",
+        "Attach marriage proof, income details of both parties, and your financial needs statement.",
+        "Pay the nominal court fee at the counter and collect your case number.",
+        "Attend the first hearing date mentioned on your receipt."
+      ],
+      "documents": [
+        "Aadhaar / Voter ID",
+        "Marriage certificate or wedding photos",
+        "Income proof of husband (if available)",
+        "Your income and expense details",
+        "Bank statements (last 6 months)",
+        "Passport-size photographs"
+      ],
+      "timeline": "First hearing within 30–60 days; interim maintenance may be granted earlier.",
+      "fees": "Nominal — typically ₹50–₹500 depending on claim amount."
+    },
+    "domestic-violence": {
+      "courtType": "Magistrate Court (Protection Officer route also available)",
+      "law": "Protection of Women from Domestic Violence Act, 2005",
+      "summary": "You are protected from physical, emotional, sexual, and economic abuse within the home.",
+      "steps": [
+        "Contact the Protection Officer in your district or dial 181 (Women Helpline) for immediate help.",
+        "File an application before the Magistrate under the DV Act.",
+        "Describe incidents with dates and attach evidence (medical reports, photos, messages).",
+        "Request protection order, residence order, or monetary relief as needed.",
+        "Attend the ex-parte or regular hearing as scheduled."
+      ],
+      "documents": [
+        "Identity and address proof",
+        "Evidence of abuse (medical reports, FIR copy, photos)",
+        "Marriage proof (if applicable)",
+        "Witness statements (if any)",
+        "List of relief sought"
+      ],
+      "timeline": "Urgent ex-parte orders possible within days; full hearing in 60–90 days.",
+      "fees": "No court fee for filing under DV Act."
+    },
+    "divorce": {
+      "courtType": "Family Court",
+      "law": "Hindu Marriage Act, 1955 / Special Marriage Act, 1954",
+      "summary": "Legal dissolution of marriage — mutual consent or contested divorce.",
+      "steps": [
+        "Visit the Family Court in your district.",
+        "File divorce petition (mutual or contested) with grounds stated.",
+        "For mutual consent: both parties must appear; 6-month cooling period may apply.",
+        "Attend counselling session if ordered by the court.",
+        "Obtain the final decree after all hearings."
+      ],
+      "documents": [
+        "Marriage certificate",
+        "Identity and address proof",
+        "Evidence supporting grounds (if contested)",
+        "Income and asset details",
+        "Children's birth certificates (if applicable)"
+      ],
+      "timeline": "Mutual consent: 6–18 months; Contested: 2–5 years.",
+      "fees": "Varies by case — typically ₹500–₹5,000."
+    },
+    "dowry": {
+      "courtType": "Police Station + Magistrate Court",
+      "law": "Section 498A IPC / Dowry Prohibition Act, 1961",
+      "summary": "Criminal complaint for dowry demand, harassment, or cruelty.",
+      "steps": [
+        "File an FIR at your local police station under Section 498A IPC.",
+        "Keep a copy of the FIR and daily diary (DD) number.",
+        "Apply for protection or residence orders under DV Act if needed.",
+        "Cooperate with the investigating officer and provide evidence.",
+        "Follow up in court when the charge sheet is filed."
+      ],
+      "documents": [
+        "Identity proof",
+        "Marriage certificate",
+        "List of dowry items and demands",
+        "Messages, recordings, or witness statements",
+        "Medical reports (if physical harm)"
+      ],
+      "timeline": "FIR immediate; investigation 60–90 days; trial varies.",
+      "fees": "No fee for filing FIR."
+    },
+    "custody": {
+      "courtType": "Family Court",
+      "law": "Guardian and Wards Act / Hindu Minority and Guardianship Act",
+      "summary": "Petition for child custody, visitation rights, or guardianship.",
+      "steps": [
+        "File custody petition in the Family Court of the district where the child resides.",
+        "State why you are the better guardian for the child's welfare.",
+        "Attend mediation or counselling if ordered.",
+        "Comply with interim visitation orders.",
+        "Attend final hearing for permanent custody order."
+      ],
+      "documents": [
+        "Child's birth certificate",
+        "Your identity and address proof",
+        "School records of the child",
+        "Evidence of your ability to care for the child",
+        "Any existing court orders"
+      ],
+      "timeline": "Interim orders in 30–60 days; final order may take 6–12 months.",
+      "fees": "Nominal court fee — typically ₹100–₹500."
+    },
+    "property": {
+      "courtType": "Civil Court (District Judge)",
+      "law": "Hindu Succession (Amendment) Act, 2005",
+      "summary": "Claim your share in ancestral or joint family property as a daughter or legal heir.",
+      "steps": [
+        "Consult a lawyer or DLSA for free legal aid (call 15100).",
+        "File a partition suit in the Civil Court of the district where property is located.",
+        "Attach property documents, succession proof, and family tree.",
+        "Request interim injunction if property is being sold.",
+        "Attend hearings for partition decree."
+      ],
+      "documents": [
+        "Property title documents / khata / registry",
+        "Succession certificate or legal heir certificate",
+        "Family tree / genealogy proof",
+        "Identity proof",
+        "Any prior wills or agreements"
+      ],
+      "timeline": "Complex cases may take 2–5 years.",
+      "fees": "Court fee based on property value — legal aid available."
+    },
+    "harassment": {
+      "courtType": "Internal Complaints Committee + Labour Court",
+      "law": "POSH Act, 2013 (Sexual Harassment of Women at Workplace)",
+      "summary": "Complaint against sexual harassment at your workplace.",
+      "steps": [
+        "File a written complaint with your employer's Internal Complaints Committee (ICC).",
+        "If no ICC or unsatisfied with response, approach the Local Complaints Committee (LCC).",
+        "ICC must complete inquiry within 90 days.",
+        "If needed, file a case in the Labour Court or civil court for compensation.",
+        "Keep copies of all complaints and responses."
+      ],
+      "documents": [
+        "Written complaint with incident details and dates",
+        "Employment proof",
+        "Evidence (emails, messages, witness names)",
+        "Medical or counselling reports (if any)",
+        "Copy of employer's POSH policy"
+      ],
+      "timeline": "ICC inquiry within 90 days; court case timeline varies.",
+      "fees": "No fee for ICC complaint."
+    }
+  },
+  "districtInfo": {
+    "up:lucknow": {
+      "primaryCourt": "District & Sessions Court, Lucknow",
+      "familyCourt": "Family Court, Lucknow",
+      "address": "Near Charbagh, Lucknow, Uttar Pradesh — 226001",
+      "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Ground Floor, New Block — Filing Counter No. 3",
+      "legalAid": "DLSA Lucknow — Room 12, District Court Campus",
+      "helpline": "181 (Women Helpline)"
+    },
+    "up:kanpur": {
+      "primaryCourt": "District & Sessions Court, Kanpur Nagar",
+      "familyCourt": "Family Court, Kanpur",
+      "address": "Civil Lines, Kanpur, Uttar Pradesh — 208001",
+      "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Main Building, Filing Counter",
+      "legalAid": "DLSA Kanpur — District Court Campus",
+      "helpline": "181"
+    },
+    "bihar:patna": {
+      "primaryCourt": "District & Sessions Court, Patna",
+      "familyCourt": "Family Court, Patna",
+      "address": "High Court Campus Area, Patna, Bihar — 800001",
+      "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Filing Branch, Ground Floor",
+      "legalAid": "DLSA Patna — Near District Court",
+      "helpline": "181"
+    },
+    "mp:indore": {
+      "primaryCourt": "District & Sessions Court, Indore",
+      "familyCourt": "Family Court, Indore",
+      "address": "South Tukoganj, Indore, Madhya Pradesh — 452001",
+      "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+      "filingCounter": "Central Filing Counter, Main Hall",
+      "legalAid": "DLSA Indore — District Court Premises",
+      "helpline": "181"
+    },
+    "mp:bhopal": {
+      "primaryCourt": "District & Sessions Court, Bhopal",
+      "familyCourt": "Family Court, Bhopal",
+      "address": "Arera Hills, Bhopal, Madhya Pradesh — 462011",
+      "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Filing Section, Block A",
+      "legalAid": "DLSA Bhopal — District Court",
+      "helpline": "181"
+    },
+    "rajasthan:jaipur": {
+      "primaryCourt": "District & Sessions Court, Jaipur",
+      "familyCourt": "Family Court, Jaipur",
+      "address": "JLN Marg, Jaipur, Rajasthan — 302004",
+      "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Filing Counter, Main Building",
+      "legalAid": "DLSA Jaipur — District Court Complex",
+      "helpline": "181"
+    },
+    "jharkhand:ranchi": {
+      "primaryCourt": "District & Sessions Court, Ranchi",
+      "familyCourt": "Family Court, Ranchi",
+      "address": "Main Road, Ranchi, Jharkhand — 834001",
+      "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+      "filingCounter": "Filing Branch, Court Complex",
+      "legalAid": "DLSA Ranchi — District Court",
+      "helpline": "181"
+    }
+  },
+  "defaultDistrictInfo": {
+    "primaryCourt": "District & Sessions Court",
+    "familyCourt": "Family Court (if available in district)",
+    "address": "District Court Complex — confirm exact address at local registry",
+    "timings": "10:30 AM – 4:30 PM (Mon–Fri) — may vary by state",
+    "filingCounter": "Ask at the main gate for the Filing Counter",
+    "legalAid": "District Legal Services Authority (DLSA) — call 15100",
+    "helpline": "181 (Women Helpline) | 100 (Police)"
+  }
+}

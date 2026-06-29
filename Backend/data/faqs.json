@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-1",
+    "question": "What is an FIR (First Information Report) and who can file it?",
+    "answer": "An FIR is a written document prepared by the police when they receive information about the commission of a cognizable (serious) offense. Anyone who knows about the commission of a cognizable offense—the victim, an eyewitness, or even a person with hearsay information—can file an FIR at any police station.",
+    "category": "Criminal Law"
+  },
+  {
+    "id": "faq-2",
+    "question": "How do I file a Right to Information (RTI) application?",
+    "answer": "You can file an RTI by submitting a written application (or online via rtionline.gov.in) to the Public Information Officer (PIO) of the concerned public authority. Draft the questions clearly, pay the prescribed fee (usually \u20b910), and the PIO must reply within 30 days of receipt of the application.",
+    "category": "Public Rights & Governance"
+  },
+  {
+    "id": "faq-3",
+    "question": "Who is eligible to receive free legal aid in India?",
+    "answer": "Under Section 12 of the Legal Services Authorities Act, eligible groups include women and children, members of SC/ST, industrial workmen, victims of mass disasters/violence, persons with disabilities, persons in custody, and citizens with an annual income below the specified state limit (generally \u20b93,00,000).",
+    "category": "Legal Aid"
+  },
+  {
+    "id": "faq-4",
+    "question": "What should I do if the police refuse to register my FIR?",
+    "answer": "If a police officer refuses to register your FIR, you can send the substance of the information in writing by registered post to the Superintendent of Police (SP) under Section 154(3) of CrPC. Alternatively, you can file a private written complaint directly before the local Judicial Magistrate under Section 156(3) of CrPC.",
+    "category": "Criminal Law"
+  },
+  {
+    "id": "faq-5",
+    "question": "What is a Public Interest Litigation (PIL) and who can file it?",
+    "answer": "A PIL is a litigation filed in a court of law (Supreme Court under Article 32 or High Court under Article 226) for the protection of public interest, such as pollution, road safety, or human rights violations. Any public-spirited citizen or group can file a PIL, provided they do not have a personal/malafide interest in the dispute.",
+    "category": "Constitutional Law & Public Interest"
+  }
+]

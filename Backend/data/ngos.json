@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ngo-1",
+    "name": "Human Rights Law Network (HRLN)",
+    "category": "Legal Aid & Human Rights",
+    "region": "National (Pan-India)",
+    "description": "A collective of lawyers and social activists dedicated to providing legal support to the marginalized, protecting human rights, and running public interest litigation (PIL) campaigns.",
+    "contact": {
+      "phone": "+91-11-24374501",
+      "email": "contact@hrln.org",
+      "website": "https://hrln.org"
+    }
+  },
+  {
+    "id": "ngo-2",
+    "name": "Majlis Legal Centre",
+    "category": "Women's Rights & Family Law",
+    "region": "Maharashtra (Mumbai)",
+    "description": "Provides legal aid, advocacy, and counseling services to women and children facing domestic violence and societal discrimination. Champions gender-just laws.",
+    "contact": {
+      "phone": "+91-22-26662394",
+      "email": "majliswomen@gmail.com",
+      "website": "https://www.majlislaw.com"
+    }
+  },
+  {
+    "id": "ngo-3",
+    "name": "Bachpan Bachao Andolan (BBA)",
+    "category": "Child Rights & Anti-Trafficking",
+    "region": "National (Pan-India)",
+    "description": "Founded by Nobel Laureate Kailash Satyarthi, BBA is India's premier organization campaigning for child rights, rescuing child laborers, and ensuring juvenile justice.",
+    "contact": {
+      "phone": "+91-11-49211111",
+      "email": "info@bba.org.in",
+      "website": "https://bba.org.in"
+    }
+  },
+  {
+    "id": "ngo-4",
+    "name": "Common Cause",
+    "category": "Good Governance & Public Interest",
+    "region": "National (Delhi-NCR)",
+    "description": "An organization dedicated to championing public causes, democratic reforms, rule of law, and institutional accountability through high-impact Public Interest Litigations (PILs).",
+    "contact": {
+      "phone": "+91-11-26131313",
+      "email": "commoncauseindia@gmail.com",
+      "website": "https://www.commoncause.in"
+    }
+  },
+  {
+    "id": "ngo-5",
+    "name": "Alternative Law Forum (ALF)",
+    "category": "Labor Rights & Marginalized Communities",
+    "region": "Karnataka (Bengaluru)",
+    "description": "ALF integrates high-quality legal research, advocacy, and direct pro-bono legal counsel to working-class, LGBTQIA+, and minority communities.",
+    "contact": {
+      "phone": "+91-80-22865757",
+      "email": "contact@altlawforum.org",
+      "website": "http://altlawforum.org"
+    }
+  }
+]
