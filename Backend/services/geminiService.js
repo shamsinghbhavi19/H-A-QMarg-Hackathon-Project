@@ -49,3 +49,18 @@ The entire draft should be drafted professionally in the requested language (${l
 };
 
 export { generatePetition };
+export async function generateChatResponse(message) {
+  try {
+    const ai = getGenAI();
+
+    const response = await ai.models.generateContent({
+      model: "gemini-3.5-flash",
+      contents: message,
+    });
+
+    return response.text;
+  } catch (error) {
+    console.error("Error in generateChatResponse:", error);
+    throw error;
+  }
+}

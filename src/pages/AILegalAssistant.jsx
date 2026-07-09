@@ -98,11 +98,30 @@ export default function AILegalAssistant() {
   }, [])
 
   const sendMessage = useCallback(
-    (text) => {
+    async (text) => {
       const trimmed = text.trim()
       if (!trimmed) return
 
       setMessages((prev) => [...prev, createMessage('user', trimmed)])
+      const response = await fetch(
+  "https://h-a-qmarg-hackathon-project.onrender.com/api/chat",
+  {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      message: trimmed,
+    }),
+  }
+);
+
+const data = await response.json();
+
+setMessages((prev) => [
+  ...prev,
+  createMessage("assistant", data.reply),
+]);
       setInput('')
       setVoiceError('')
       inputRef.current?.focus()
