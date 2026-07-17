@@ -41,7 +41,7 @@ Please ensure the legal draft contains standard legal petition components, inclu
 The entire draft should be drafted professionally in the requested language (${language || "English"}).`;
 
     const response = await ai.models.generateContent({
-        model: "gemini-3.5-flash",
+        model: "gemini-2.5-flash",
         contents: prompt,
     });
 
@@ -54,7 +54,7 @@ export async function generateChatResponse(message) {
     const ai = getGenAI();
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-2.5-flash",
       contents: message,
     });
 
