@@ -7,40 +7,16 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-/**
- * Generate Petition
- */
-export async function generatePetition(topic, target, description) {
+async function listModels() {
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-lite",
-      contents: `Draft a professional petition.
+    const response = await ai.models.list();
 
-Topic: ${topic}
-Target: ${target}
-Description: ${description}`,
-    });
-
-    return response.text;
-  } catch (error) {
-    console.error("Petition Error:", error);
-    throw error;
+    for await (const model of response) {
+      console.log(model.name);
+    }
+  } catch (err) {
+    console.error(err);
   }
 }
 
-/**
- * AI Chatbot
- */
-export async function generateChatResponse(message) {
-  try {
-    const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-lite",
-      contents: message,
-    });
-
-    return response.text;
-  } catch (error) {
-    console.error("Chat Error:", error);
-    throw error;
-  }
-}
+listModels();
