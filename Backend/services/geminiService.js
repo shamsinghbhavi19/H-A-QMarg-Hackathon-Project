@@ -12,7 +12,7 @@ export async function generateChatResponse(message) {
   try {
     const response = await ai.models.generateContent({
       // We will adjust the model after the server starts successfully
-      model: "gemini-2.5-pro",
+      model: "gemini-2.5-flash",
       contents: message,
     });
 
@@ -27,7 +27,7 @@ export async function generateChatResponse(message) {
 export async function generatePetition(topic, target, description) {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-pro",
+      model: "gemini-2.5-flash",
       contents: `Draft a professional legal petition.
 
 Topic: ${topic}
