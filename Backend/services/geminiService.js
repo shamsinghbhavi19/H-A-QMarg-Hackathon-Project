@@ -7,16 +7,37 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-async function listModels() {
+// ---------------- CHATBOT ----------------
+export async function generateChatResponse(message) {
   try {
-    const response = await ai.models.list();
+    const response = await ai.models.generateContent({
+      // We will adjust the model after the server starts successfully
+      model: "gemini-2.5-pro",
+      contents: message,
+    });
 
-    for await (const model of response) {
-      console.log(model.name);
-    }
-  } catch (err) {
-    console.error(err);
+    return response.text;
+  } catch (error) {
+    console.error("Chat Error:", error);
+    throw error;
   }
 }
 
-listModels();
+// ---------------- PETITION ----------------
+export async function generatePetition(topic, target, description) {
+  try {
+    const response = await ai.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: `Draft a professional legal petition.
+
+Topic: ${topic}
+Target: ${target}
+Description: ${description}`,
+    });
+
+    return response.text;
+  } catch (error) {
+    console.error("Petition Error:", error);
+    throw error;
+  }
+}
