@@ -39,7 +39,614 @@
       "id": "assam",
       "name": "Assam",
       "districts": ["Guwahati", "Dibrugarh", "Silchar", "Jorhat"]
-    }
+    },
+    
+{
+  "id": "andhra-pradesh",
+  "name": "Andhra Pradesh",
+  "districts": [
+    "Anantapur",
+    "Chittoor",
+    "East Godavari",
+    "Guntur",
+    "Kadapa",
+    "Krishna",
+    "Kurnool",
+    "Nellore",
+    "Prakasam",
+    "Srikakulam",
+    "Visakhapatnam",
+    "Vizianagaram",
+    "West Godavari"
+  ]
+},
+{
+  "id": "arunachal-pradesh",
+  "name": "Arunachal Pradesh",
+  "districts": [
+    "Itanagar",
+    "Tawang",
+    "West Kameng",
+    "East Siang",
+    "Lower Subansiri",
+    "Papum Pare",
+    "Changlang",
+    "Lohit",
+    "Namsai"
+  ]
+},
+{
+  "id": "goa",
+  "name": "Goa",
+  "districts": [
+    "North Goa",
+    "South Goa",
+    "Panaji",
+    "Margao",
+    "Mapusa",
+    "Vasco da Gama"
+  ]
+},
+{
+  "id": "gujarat",
+  "name": "Gujarat",
+  "districts": [
+    "Ahmedabad",
+    "Surat",
+    "Vadodara",
+    "Rajkot",
+    "Bhavnagar",
+    "Jamnagar",
+    "Junagadh",
+    "Gandhinagar",
+    "Kutch",
+    "Anand",
+    "Mehsana",
+    "Patan",
+    "Sabarkantha",
+    "Banaskantha",
+    "Bharuch",
+    "Navsari",
+    "Valsad",
+    "Porbandar"
+  ]
+},
+{
+  "id": "haryana",
+  "name": "Haryana",
+  "districts": [
+    "Ambala",
+    "Bhiwani",
+    "Faridabad",
+    "Fatehabad",
+    "Gurugram",
+    "Hisar",
+    "Jhajjar",
+    "Jind",
+    "Kaithal",
+    "Karnal",
+    "Kurukshetra",
+    "Mahendragarh",
+    "Nuh",
+    "Palwal",
+    "Panchkula",
+    "Panipat",
+    "Rewari",
+    "Rohtak",
+    "Sirsa",
+    "Sonipat",
+    "Yamunanagar"
+  ]
+},
+{
+  "id": "himachal-pradesh",
+  "name": "Himachal Pradesh",
+  "districts": [
+    "Bilaspur",
+    "Chamba",
+    "Hamirpur",
+    "Kangra",
+    "Kinnaur",
+    "Kullu",
+    "Lahaul and Spiti",
+    "Mandi",
+    "Shimla",
+    "Sirmaur",
+    "Solan",
+    "Una"
+  ]
+},
+{
+  "id": "karnataka",
+  "name": "Karnataka",
+  "districts": [
+    "Bengaluru Urban",
+    "Bengaluru Rural",
+    "Belagavi",
+    "Ballari",
+    "Bidar",
+    "Chamarajanagar",
+    "Chikkaballapur",
+    "Chikkamagaluru",
+    "Davanagere",
+    "Dharwad",
+    "Gadag",
+    "Hassan",
+    "Haveri",
+    "Kalaburagi",
+    "Kodagu",
+    "Kolar",
+    "Koppal",
+    "Mandya",
+    "Mysuru",
+    "Raichur",
+    "Shivamogga",
+    "Tumakuru",
+    "Udupi",
+    "Uttara Kannada",
+    "Vijayapura",
+    "Yadgir"
+  ]
+},
+{
+  "id": "kerala",
+  "name": "Kerala",
+  "districts": [
+    "Alappuzha",
+    "Ernakulam",
+    "Idukki",
+    "Kannur",
+    "Kasaragod",
+    "Kollam",
+    "Kottayam",
+    "Kozhikode",
+    "Malappuram",
+    "Palakkad",
+    "Pathanamthitta",
+    "Thiruvananthapuram",
+    "Thrissur",
+    "Wayanad"
+  ]
+},
+{
+  "id": "maharashtra",
+  "name": "Maharashtra",
+  "districts": [
+    "Ahmednagar",
+    "Akola",
+    "Amravati",
+    "Aurangabad",
+    "Beed",
+    "Bhandara",
+    "Buldhana",
+    "Chandrapur",
+    "Dhule",
+    "Gadchiroli",
+    "Gondia",
+    "Hingoli",
+    "Jalgaon",
+    "Jalna",
+    "Kolhapur",
+    "Latur",
+    "Mumbai City",
+    "Mumbai Suburban",
+    "Nagpur",
+    "Nanded",
+    "Nandurbar",
+    "Nashik",
+    "Osmanabad",
+    "Palghar",
+    "Parbhani",
+    "Pune",
+    "Raigad",
+    "Ratnagiri",
+    "Sangli",
+    "Satara",
+    "Sindhudurg",
+    "Solapur",
+    "Thane",
+    "Wardha",
+    "Washim",
+    "Yavatmal"
+  ]
+},
+{
+  "id": "manipur",
+  "name": "Manipur",
+  "districts": [
+    "Bishnupur",
+    "Chandel",
+    "Churachandpur",
+    "Imphal East",
+    "Imphal West",
+    "Kakching",
+    "Kamjong",
+    "Kangpokpi",
+    "Noney",
+    "Pherzawl",
+    "Senapati",
+    "Tamenglong",
+    "Tengnoupal",
+    "Thoubal",
+    "Ukhrul"
+  ]
+},
+{
+  "id": "meghalaya",
+  "name": "Meghalaya",
+  "districts": [
+    "East Garo Hills",
+    "East Jaintia Hills",
+    "East Khasi Hills",
+    "North Garo Hills",
+    "Ri Bhoi",
+    "South Garo Hills",
+    "South West Garo Hills",
+    "South West Khasi Hills",
+    "West Garo Hills",
+    "West Jaintia Hills",
+    "West Khasi Hills"
+  ]
+},
+{
+  "id": "mizoram",
+  "name": "Mizoram",
+  "districts": [
+    "Aizawl",
+    "Champhai",
+    "Hnahthial",
+    "Khawzawl",
+    "Kolasib",
+    "Lawngtlai",
+    "Lunglei",
+    "Mamit",
+    "Saiha",
+    "Saitual",
+    "Serchhip"
+  ]
+},
+{
+  "id": "nagaland",
+  "name": "Nagaland",
+  "districts": [
+    "Chumoukedima",
+    "Dimapur",
+    "Kiphire",
+    "Kohima",
+    "Longleng",
+    "Mokokchung",
+    "Mon",
+    "Niuland",
+    "Noklak",
+    "Peren",
+    "Phek",
+    "Shamator",
+    "Tuensang",
+    "Tseminyu",
+    "Wokha",
+    "Zunheboto"
+  ]
+},
+{
+  "id": "odisha",
+  "name": "Odisha",
+  "districts": [
+    "Angul",
+    "Balangir",
+    "Balasore",
+    "Bargarh",
+    "Bhadrak",
+    "Boudh",
+    "Cuttack",
+    "Deogarh",
+    "Dhenkanal",
+    "Gajapati",
+    "Ganjam",
+    "Jagatsinghpur",
+    "Jajpur",
+    "Jharsuguda",
+    "Kalahandi",
+    "Kandhamal",
+    "Kendrapara",
+    "Kendujhar",
+    "Khordha",
+    "Koraput",
+    "Malkangiri",
+    "Mayurbhanj",
+    "Nabarangpur",
+    "Nayagarh",
+    "Nuapada",
+    "Puri",
+    "Rayagada",
+    "Sambalpur",
+    "Subarnapur",
+    "Sundargarh"
+  ]
+},
+{
+  "id": "punjab",
+  "name": "Punjab",
+  "districts": [
+    "Amritsar",
+    "Barnala",
+    "Bathinda",
+    "Faridkot",
+    "Fatehgarh Sahib",
+    "Fazilka",
+    "Ferozepur",
+    "Gurdaspur",
+    "Hoshiarpur",
+    "Jalandhar",
+    "Kapurthala",
+    "Ludhiana",
+    "Malerkotla",
+    "Mansa",
+    "Moga",
+    "Mohali",
+    "Muktsar",
+    "Pathankot",
+    "Patiala",
+    "Rupnagar",
+    "Sangrur",
+    "Shaheed Bhagat Singh Nagar",
+    "Tarn Taran"
+  ]
+},
+{
+  "id": "sikkim",
+  "name": "Sikkim",
+  "districts": [
+    "Gangtok",
+    "Mangan",
+    "Namchi",
+    "Gyalshing",
+    "Pakyong",
+    "Soreng"
+  ]
+},
+{
+  "id": "tamil-nadu",
+  "name": "Tamil Nadu",
+  "districts": [
+    "Ariyalur",
+    "Chengalpattu",
+    "Chennai",
+    "Coimbatore",
+    "Cuddalore",
+    "Dharmapuri",
+    "Dindigul",
+    "Erode",
+    "Kallakurichi",
+    "Kanchipuram",
+    "Kanniyakumari",
+    "Karur",
+    "Krishnagiri",
+    "Madurai",
+    "Mayiladuthurai",
+    "Nagapattinam",
+    "Namakkal",
+    "Nilgiris",
+    "Perambalur",
+    "Pudukkottai",
+    "Ramanathapuram",
+    "Ranipet",
+    "Salem",
+    "Sivaganga",
+    "Tenkasi",
+    "Thanjavur",
+    "Theni",
+    "Thoothukudi",
+    "Tiruchirappalli",
+    "Tirunelveli",
+    "Tirupathur",
+    "Tiruppur",
+    "Tiruvallur",
+    "Tiruvannamalai",
+    "Tiruvarur",
+    "Vellore",
+    "Viluppuram",
+    "Virudhunagar"
+  ]
+},
+{
+  "id": "telangana",
+  "name": "Telangana",
+  "districts": [
+    "Adilabad",
+    "Bhadradri Kothagudem",
+    "Hyderabad",
+    "Jagtial",
+    "Jangaon",
+    "Jayashankar Bhupalpally",
+    "Jogulamba Gadwal",
+    "Kamareddy",
+    "Karimnagar",
+    "Khammam",
+    "Komaram Bheem",
+    "Mahabubabad",
+    "Mahabubnagar",
+    "Mancherial",
+    "Medak",
+    "Medchal",
+    "Mulugu",
+    "Nagarkurnool",
+    "Nalgonda",
+    "Narayanpet",
+    "Nirmal",
+    "Nizamabad",
+    "Peddapalli",
+    "Rajanna Sircilla",
+    "Rangareddy",
+    "Sangareddy",
+    "Siddipet",
+    "Suryapet",
+    "Vikarabad",
+    "Wanaparthy",
+    "Warangal",
+    "Yadadri Bhuvanagiri"
+  ]
+},
+{
+  "id": "tripura",
+  "name": "Tripura",
+  "districts": [
+    "Agartala",
+    "Dhalai",
+    "Gomati",
+    "Khowai",
+    "North Tripura",
+    "Sepahijala",
+    "South Tripura",
+    "Unakoti",
+    "West Tripura"
+  ]
+},
+{
+  "id": "uttarakhand",
+  "name": "Uttarakhand",
+  "districts": [
+    "Almora",
+    "Bageshwar",
+    "Chamoli",
+    "Champawat",
+    "Dehradun",
+    "Haridwar",
+    "Nainital",
+    "Pauri Garhwal",
+    "Pithoragarh",
+    "Rudraprayag",
+    "Tehri Garhwal",
+    "Udham Singh Nagar",
+    "Uttarkashi"
+  ]
+},
+{
+  "id": "west-bengal",
+  "name": "West Bengal",
+  "districts": [
+    "Alipurduar",
+    "Bankura",
+    "Birbhum",
+    "Cooch Behar",
+    "Darjeeling",
+    "Hooghly",
+    "Howrah",
+    "Jalpaiguri",
+    "Jhargram",
+    "Kalimpong",
+    "Kolkata",
+    "Malda",
+    "Murshidabad",
+    "Nadia",
+    "North 24 Parganas",
+    "Paschim Bardhaman",
+    "Paschim Medinipur",
+    "Purba Bardhaman",
+    "Purba Medinipur",
+    "Purulia",
+    "South 24 Parganas",
+    "Uttar Dinajpur",
+    "Dakshin Dinajpur"
+  ]
+},
+{
+  "id": "andaman-and-nicobar-islands",
+  "name": "Andaman and Nicobar Islands",
+  "districts": [
+    "Nicobar",
+    "North and Middle Andaman",
+    "South Andaman"
+  ]
+},
+{
+  "id": "chandigarh",
+  "name": "Chandigarh",
+  "districts": [
+    "Chandigarh"
+  ]
+},
+{
+  "id": "dadra-and-nagar-haveli-and-daman-and-diu",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "districts": [
+    "Dadra and Nagar Haveli",
+    "Daman",
+    "Diu"
+  ]
+},
+{
+  "id": "delhi",
+  "name": "Delhi",
+  "districts": [
+    "Central Delhi",
+    "East Delhi",
+    "New Delhi",
+    "North Delhi",
+    "North East Delhi",
+    "North West Delhi",
+    "Shahdara",
+    "South Delhi",
+    "South East Delhi",
+    "South West Delhi",
+    "West Delhi"
+  ]
+},
+{
+  "id": "jammu-and-kashmir",
+  "name": "Jammu and Kashmir",
+  "districts": [
+    "Anantnag",
+    "Bandipora",
+    "Baramulla",
+    "Budgam",
+    "Doda",
+    "Ganderbal",
+    "Jammu",
+    "Kathua",
+    "Kishtwar",
+    "Kupwara",
+    "Pulwama",
+    "Poonch",
+    "Rajouri",
+    "Ramban",
+    "Reasi",
+    "Samba",
+    "Shopian",
+    "Srinagar",
+    "Udhampur"
+  ]
+},
+{
+  "id": "ladakh",
+  "name": "Ladakh",
+  "districts": [
+    "Kargil",
+    "Leh"
+  ]
+},
+{
+  "id": "lakshadweep",
+  "name": "Lakshadweep",
+  "districts": [
+    "Kavaratti",
+    "Agatti",
+    "Amini",
+    "Andrott",
+    "Kalpeni",
+    "Minicoy"
+  ]
+},
+{
+  "id": "puducherry",
+  "name": "Puducherry",
+  "districts": [
+    "Karaikal",
+    "Mahe",
+    "Puducherry",
+    "Yanam"
+  ]
+}
+
   ],
   "legalIssues": [
     {
@@ -76,7 +683,207 @@
       "id": "harassment",
       "name": "Workplace Harassment",
       "nameHi": "कार्यस्थल उत्पीड़न"
-    }
+    },
+    {
+  "id": "mutual-divorce",
+  "name": "Mutual Consent Divorce",
+  "nameHi": "आपसी सहमति से तलाक"
+},
+{
+  "id": "child-custody",
+  "name": "Child Custody",
+  "nameHi": "बच्चे की अभिरक्षा"
+},
+{
+  "id": "guardianship",
+  "name": "Guardianship",
+  "nameHi": "अभिभावकता"
+},
+{
+  "id": "adoption",
+  "name": "Adoption",
+  "nameHi": "गोद लेना"
+},
+{
+  "id": "property-rights",
+  "name": "Women's Property Rights",
+  "nameHi": "महिलाओं के संपत्ति अधिकार"
+},
+{
+  "id": "inheritance",
+  "name": "Inheritance Rights",
+  "nameHi": "उत्तराधिकार अधिकार"
+},
+{
+  "id": "streedhan",
+  "name": "Streedhan Recovery",
+  "nameHi": "स्त्रीधन की वापसी"
+},
+{
+  "id": "sexual-harassment",
+  "name": "Sexual Harassment",
+  "nameHi": "यौन उत्पीड़न"
+},
+{
+  "id": "workplace-harassment",
+  "name": "Workplace Sexual Harassment (POSH)",
+  "nameHi": "कार्यस्थल पर यौन उत्पीड़न"
+},
+{
+  "id": "rape",
+  "name": "Rape / Sexual Assault",
+  "nameHi": "बलात्कार / यौन हमला"
+},
+{
+  "id": "stalking",
+  "name": "Stalking",
+  "nameHi": "पीछा करना"
+},
+{
+  "id": "cyber-stalking",
+  "name": "Cyber Stalking",
+  "nameHi": "साइबर पीछा करना"
+},
+{
+  "id": "cyber-bullying",
+  "name": "Cyber Bullying",
+  "nameHi": "साइबर बुलिंग"
+},
+{
+  "id": "online-harassment",
+  "name": "Online Harassment",
+  "nameHi": "ऑनलाइन उत्पीड़न"
+},
+{
+  "id": "blackmail",
+  "name": "Online Blackmail",
+  "nameHi": "ऑनलाइन ब्लैकमेल"
+},
+{
+  "id": "revenge-porn",
+  "name": "Image Misuse / Revenge Porn",
+  "nameHi": "तस्वीरों का दुरुपयोग"
+},
+{
+  "id": "acid-attack",
+  "name": "Acid Attack",
+  "nameHi": "एसिड हमला"
+},
+{
+  "id": "human-trafficking",
+  "name": "Human Trafficking",
+  "nameHi": "मानव तस्करी"
+},
+{
+  "id": "kidnapping",
+  "name": "Kidnapping / Abduction",
+  "nameHi": "अपहरण"
+},
+{
+  "id": "missing-person",
+  "name": "Missing Woman / Girl",
+  "nameHi": "लापता महिला / लड़की"
+},
+{
+  "id": "child-marriage",
+  "name": "Child Marriage",
+  "nameHi": "बाल विवाह"
+},
+{
+  "id": "pocso",
+  "name": "POCSO Cases",
+  "nameHi": "पॉक्सो अधिनियम"
+},
+{
+  "id": "child-abuse",
+  "name": "Child Abuse",
+  "nameHi": "बाल शोषण"
+},
+{
+  "id": "minor-rights",
+  "name": "Rights of Minor Girls",
+  "nameHi": "नाबालिग लड़कियों के अधिकार"
+},
+{
+  "id": "education-rights",
+  "name": "Education Rights",
+  "nameHi": "शिक्षा का अधिकार"
+},
+{
+  "id": "domestic-abuse-child",
+  "name": "Domestic Abuse Against Child",
+  "nameHi": "बच्चों के विरुद्ध घरेलू हिंसा"
+},
+{
+  "id": "family-dispute",
+  "name": "Family Dispute",
+  "nameHi": "पारिवारिक विवाद"
+},
+{
+  "id": "marriage-registration",
+  "name": "Marriage Registration",
+  "nameHi": "विवाह पंजीकरण"
+},
+{
+  "id": "live-in-rights",
+  "name": "Live-in Relationship Rights",
+  "nameHi": "लिव-इन संबंध अधिकार"
+},
+{
+  "id": "maintenance-parents",
+  "name": "Maintenance for Parents",
+  "nameHi": "माता-पिता का भरण-पोषण"
+},
+{
+  "id": "senior-citizen",
+  "name": "Senior Citizen Protection",
+  "nameHi": "वरिष्ठ नागरिक संरक्षण"
+},
+{
+  "id": "legal-aid",
+  "name": "Free Legal Aid",
+  "nameHi": "निःशुल्क कानूनी सहायता"
+},
+{
+  "id": "fir-registration",
+  "name": "FIR Registration",
+  "nameHi": "एफआईआर दर्ज करना"
+},
+{
+  "id": "police-complaint",
+  "name": "Police Complaint",
+  "nameHi": "पुलिस शिकायत"
+},
+{
+  "id": "protection-order",
+  "name": "Protection Order",
+  "nameHi": "संरक्षण आदेश"
+},
+{
+  "id": "residence-rights",
+  "name": "Right to Residence",
+  "nameHi": "निवास का अधिकार"
+},
+{
+  "id": "medical-negligence",
+  "name": "Medical Negligence",
+  "nameHi": "चिकित्सीय लापरवाही"
+},
+{
+  "id": "financial-fraud",
+  "name": "Financial Fraud",
+  "nameHi": "वित्तीय धोखाधड़ी"
+},
+{
+  "id": "identity-theft",
+  "name": "Identity Theft",
+  "nameHi": "पहचान की चोरी"
+},
+{
+  "id": "other",
+  "name": "Other Legal Issues",
+  "nameHi": "अन्य कानूनी मामले"
+}
   ],
   "issueGuidance": {
     "maintenance": {
@@ -227,6 +1034,922 @@
       "timeline": "ICC inquiry within 90 days; court case timeline varies.",
       "fees": "No fee for ICC complaint."
     }
+    ,
+"pocso": {
+  "courtType": "Special POCSO Court / Sessions Court",
+  "law": "Protection of Children from Sexual Offences (POCSO) Act, 2012",
+  "summary": "Protects every child below 18 years from sexual abuse, assault, harassment and pornography.",
+  "steps": [
+    "Call Police (112) or Childline (1098) immediately.",
+    "File an FIR at the nearest police station.",
+    "The child's statement should preferably be recorded by a woman police officer.",
+    "Medical examination will be conducted without delay.",
+    "The case will be transferred to the Special POCSO Court."
+  ],
+  "documents": [
+    "Identity proof of child/guardian",
+    "Birth certificate or age proof",
+    "Medical reports",
+    "FIR copy",
+    "Photos, messages or other evidence",
+    "Witness details (if available)"
+  ],
+  "timeline": "Investigation generally within 2 months; trial should be completed as early as possible.",
+  "fees": "No court fee."
+},
+
+"child-marriage": {
+  "courtType": "District Court / Child Marriage Prohibition Officer",
+  "law": "Prohibition of Child Marriage Act, 2006",
+  "summary": "Marriage involving a girl below 18 years or a boy below 21 years is prohibited.",
+  "steps": [
+    "Inform Police (112) or Childline (1098).",
+    "Report the incident to the Child Marriage Prohibition Officer.",
+    "File a complaint before the District Court.",
+    "Request cancellation of the marriage if already solemnized.",
+    "Seek protection and rehabilitation if required."
+  ],
+  "documents": [
+    "Age proof",
+    "Identity proof",
+    "Marriage photographs or invitation",
+    "Witness statements"
+  ],
+  "timeline": "Emergency intervention is immediate.",
+  "fees": "No court fee."
+},
+
+"child-abuse": {
+  "courtType": "Juvenile Justice Board / Special Court",
+  "law": "Juvenile Justice Act, 2015 and POCSO Act",
+  "summary": "Protection against physical, emotional and sexual abuse of children.",
+  "steps": [
+    "Ensure the child's safety.",
+    "Call Childline 1098.",
+    "Report to Police.",
+    "Medical examination if required.",
+    "Follow proceedings before competent authority."
+  ],
+  "documents": [
+    "Medical report",
+    "Identity proof",
+    "Photographs",
+    "Witness details"
+  ],
+  "timeline": "Immediate protection measures available.",
+  "fees": "No fee."
+},
+
+"minor-rights": {
+  "courtType": "District Court / Child Welfare Committee",
+  "law": "Constitution of India, JJ Act, POCSO Act",
+  "summary": "Minor girls have rights to education, protection, healthcare and safety.",
+  "steps": [
+    "Approach Child Welfare Committee.",
+    "Seek legal aid if rights are violated.",
+    "File complaint through Police or District Legal Services Authority."
+  ],
+  "documents": [
+    "Birth certificate",
+    "Identity proof",
+    "Relevant complaint documents"
+  ],
+  "timeline": "Depends upon the matter.",
+  "fees": "No fee."
+},
+
+"education-rights": {
+  "courtType": "Education Department / High Court",
+  "law": "Right of Children to Free and Compulsory Education Act, 2009",
+  "summary": "Children aged 6–14 years have the right to free education.",
+  "steps": [
+    "Approach school authorities.",
+    "File complaint before District Education Officer.",
+    "Approach State Commission for Protection of Child Rights if needed."
+  ],
+  "documents": [
+    "Birth certificate",
+    "School records",
+    "Complaint copies"
+  ],
+  "timeline": "Varies by authority.",
+  "fees": "No fee."
+},
+
+"kidnapping": {
+  "courtType": "Police Station / Sessions Court",
+  "law": "Bharatiya Nyaya Sanhita (Kidnapping provisions)",
+  "summary": "Immediate police action is available in kidnapping cases.",
+  "steps": [
+    "Dial 112 immediately.",
+    "File FIR.",
+    "Provide photographs and identification details.",
+    "Cooperate with investigation."
+  ],
+  "documents": [
+    "Photograph",
+    "Identity proof",
+    "Recent contact details"
+  ],
+  "timeline": "Immediate police action.",
+  "fees": "No fee."
+},
+
+"missing-person": {
+  "courtType": "Police Station",
+  "law": "Police Standing Orders",
+  "summary": "Missing women and girls must be reported immediately.",
+  "steps": [
+    "Visit nearest police station.",
+    "File Missing Person Report.",
+    "Share latest photograph.",
+    "Follow investigation updates."
+  ],
+  "documents": [
+    "Photograph",
+    "Identity proof",
+    "Last known location"
+  ],
+  "timeline": "Immediate registration.",
+  "fees": "No fee."
+},
+
+"guardianship": {
+  "courtType": "Family Court",
+  "law": "Guardians and Wards Act, 1890",
+  "summary": "Legal appointment of guardian for a minor.",
+  "steps": [
+    "File guardianship petition.",
+    "Submit supporting documents.",
+    "Attend hearings."
+  ],
+  "documents": [
+    "Birth certificate",
+    "Identity proof",
+    "Relationship proof"
+  ],
+  "timeline": "3–12 months.",
+  "fees": "Nominal."
+},
+
+"adoption": {
+  "courtType": "District Court / CARA",
+  "law": "Juvenile Justice Act and CARA Guidelines",
+  "summary": "Legal adoption process regulated by CARA.",
+  "steps": [
+    "Register with CARA.",
+    "Complete home study.",
+    "Accept child referral.",
+    "Court order for adoption."
+  ],
+  "documents": [
+    "Identity proof",
+    "Marriage certificate",
+    "Income proof",
+    "Medical fitness certificate"
+  ],
+  "timeline": "6–12 months.",
+  "fees": "As per CARA guidelines."
+}
+,
+"cyber-stalking": {
+  "courtType": "Cyber Crime Police Station / Magistrate Court",
+  "law": "Information Technology Act, 2000 & Bharatiya Nyaya Sanhita (BNS)",
+  "summary": "Repeated online monitoring, unwanted messages, threats, or tracking through social media or digital platforms.",
+  "steps": [
+    "Take screenshots of chats, emails, and profiles.",
+    "Report the incident at https://cybercrime.gov.in.",
+    "File a complaint at the nearest Cyber Crime Police Station.",
+    "Block the offender but preserve all evidence.",
+    "Follow up with the investigating officer."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots of chats/posts",
+    "URLs or profile links",
+    "Device details (if requested)"
+  ],
+  "timeline": "Complaint registered immediately; investigation usually begins within a few days.",
+  "fees": "No fee."
+},
+
+"cyber-bullying": {
+  "courtType": "Cyber Crime Police Station",
+  "law": "Information Technology Act, 2000 & Bharatiya Nyaya Sanhita",
+  "summary": "Online bullying, abusive messages, public humiliation, or repeated harassment on digital platforms.",
+  "steps": [
+    "Save screenshots as evidence.",
+    "Report abusive accounts on the platform.",
+    "File a complaint on cybercrime.gov.in.",
+    "Visit the Cyber Crime Police Station if harassment continues."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots",
+    "Social media links",
+    "Complaint copy"
+  ],
+  "timeline": "Investigation depends on the nature of the offence.",
+  "fees": "No fee."
+},
+
+"online-harassment": {
+  "courtType": "Cyber Crime Police Station",
+  "law": "Information Technology Act & Bharatiya Nyaya Sanhita",
+  "summary": "Online abuse, threats, obscene messages, or repeated unwanted communication.",
+  "steps": [
+    "Collect screenshots.",
+    "Do not delete conversations.",
+    "Report to Cyber Crime Portal.",
+    "File an FIR if threats are serious."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots",
+    "Chat history",
+    "Email records"
+  ],
+  "timeline": "Complaint registered immediately.",
+  "fees": "No fee."
+},
+
+"blackmail": {
+  "courtType": "Cyber Crime Police Station / Sessions Court",
+  "law": "Information Technology Act & Bharatiya Nyaya Sanhita",
+  "summary": "Threatening to leak personal information, photographs, or videos for money or other demands.",
+  "steps": [
+    "Do not pay the blackmailer.",
+    "Save all chats and evidence.",
+    "File a complaint on cybercrime.gov.in.",
+    "Visit the nearest Cyber Crime Police Station.",
+    "Seek immediate police protection if threatened."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots",
+    "Bank transaction details (if any)",
+    "Social media links"
+  ],
+  "timeline": "Emergency complaints are prioritized.",
+  "fees": "No fee."
+},
+
+"revenge-porn": {
+  "courtType": "Cyber Crime Police Station / Magistrate Court",
+  "law": "Information Technology Act, 2000 & Bharatiya Nyaya Sanhita",
+  "summary": "Sharing or threatening to share intimate images without consent.",
+  "steps": [
+    "Take screenshots before removal.",
+    "Report the content on the platform immediately.",
+    "File a complaint through cybercrime.gov.in.",
+    "Approach the Cyber Crime Police Station.",
+    "Request immediate removal of the content."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots",
+    "Links to uploaded content",
+    "Complaint copy"
+  ],
+  "timeline": "Content removal requests are treated urgently.",
+  "fees": "No fee."
+},
+
+"identity-theft": {
+  "courtType": "Cyber Crime Police Station",
+  "law": "Information Technology Act, 2000",
+  "summary": "Unauthorized use of your identity, Aadhaar, PAN, bank details or online accounts.",
+  "steps": [
+    "Block compromised accounts immediately.",
+    "Inform your bank if financial information is involved.",
+    "Report on cybercrime.gov.in.",
+    "File an FIR if necessary."
+  ],
+  "documents": [
+    "Identity proof",
+    "Bank statements",
+    "Screenshots",
+    "Complaint details"
+  ],
+  "timeline": "Immediate reporting is recommended.",
+  "fees": "No fee."
+},
+
+"financial-fraud": {
+  "courtType": "Cyber Crime Police Station",
+  "law": "Information Technology Act & Bharatiya Nyaya Sanhita",
+  "summary": "UPI fraud, OTP scams, fake investment schemes, or unauthorized online transactions.",
+  "steps": [
+    "Immediately call 1930 (National Cyber Fraud Helpline).",
+    "Inform your bank.",
+    "Report the incident on cybercrime.gov.in.",
+    "Keep transaction IDs safely."
+  ],
+  "documents": [
+    "Bank statements",
+    "Transaction ID",
+    "Screenshots",
+    "Identity proof"
+  ],
+  "timeline": "Report immediately for better recovery chances.",
+  "fees": "No fee."
+},
+
+"police-complaint": {
+  "courtType": "Nearest Police Station",
+  "law": "Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023",
+  "summary": "You can file a police complaint for any cognizable offence affecting you.",
+  "steps": [
+    "Visit the nearest police station.",
+    "Submit a written complaint.",
+    "Collect the acknowledgement or diary number.",
+    "If the offence is cognizable, request FIR registration."
+  ],
+  "documents": [
+    "Identity proof",
+    "Written complaint",
+    "Supporting evidence"
+  ],
+  "timeline": "Same day registration in most cases.",
+  "fees": "No fee."
+},
+
+"fir-registration": {
+  "courtType": "Nearest Police Station",
+  "law": "BNSS, 2023",
+  "summary": "An FIR is mandatory for cognizable offences reported to the police.",
+  "steps": [
+    "Visit the police station.",
+    "Explain the incident clearly.",
+    "Read the FIR before signing.",
+    "Collect a free copy of the FIR."
+  ],
+  "documents": [
+    "Identity proof",
+    "Evidence available",
+    "Witness details (if any)"
+  ],
+  "timeline": "Immediately after reporting.",
+  "fees": "No fee."
+}
+,
+"sexual-harassment": {
+  "courtType": "Police Station / Magistrate Court",
+  "law": "Bharatiya Nyaya Sanhita (BNS), 2023",
+  "summary": "Protection against unwanted sexual advances, physical contact, sexually coloured remarks, or other forms of sexual harassment.",
+  "steps": [
+    "Report the incident to the nearest police station.",
+    "File an FIR if the offence is cognizable.",
+    "Preserve evidence such as messages, CCTV footage, or witness details.",
+    "Attend hearings as directed by the court."
+  ],
+  "documents": [
+    "Identity proof",
+    "Evidence (messages, recordings, CCTV)",
+    "Medical report (if applicable)",
+    "Witness details"
+  ],
+  "timeline": "FIR immediately; investigation generally within 60–90 days.",
+  "fees": "No fee."
+},
+
+"workplace-harassment": {
+  "courtType": "Internal Complaints Committee (ICC) / Local Complaints Committee",
+  "law": "Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013",
+  "summary": "Protection against sexual harassment at the workplace.",
+  "steps": [
+    "Submit a written complaint to the ICC within 3 months.",
+    "If no ICC exists, approach the Local Complaints Committee.",
+    "Attend the inquiry proceedings.",
+    "If dissatisfied, seek legal remedy before the appropriate court."
+  ],
+  "documents": [
+    "Written complaint",
+    "Employment proof",
+    "Evidence",
+    "Witness details"
+  ],
+  "timeline": "Inquiry should be completed within 90 days.",
+  "fees": "No fee."
+},
+
+"rape": {
+  "courtType": "Police Station / Sessions Court",
+  "law": "Bharatiya Nyaya Sanhita (BNS), 2023",
+  "summary": "Victims of rape or sexual assault have the right to immediate police assistance, medical care, legal aid and compensation.",
+  "steps": [
+    "Call 112 immediately.",
+    "Visit the nearest police station to register an FIR.",
+    "Undergo medical examination.",
+    "Request free legal aid.",
+    "Attend court proceedings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Medical report",
+    "FIR copy",
+    "Evidence (if available)"
+  ],
+  "timeline": "Immediate police action; trial depends on court schedule.",
+  "fees": "No fee."
+},
+
+"stalking": {
+  "courtType": "Police Station / Magistrate Court",
+  "law": "Bharatiya Nyaya Sanhita (BNS), 2023",
+  "summary": "Repeatedly following, contacting, monitoring or threatening a woman against her wishes.",
+  "steps": [
+    "Collect evidence.",
+    "File an FIR.",
+    "Request protection if necessary.",
+    "Attend court hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Screenshots",
+    "Call records",
+    "Witness details"
+  ],
+  "timeline": "Complaint registered immediately.",
+  "fees": "No fee."
+},
+
+"acid-attack": {
+  "courtType": "Police Station / Sessions Court",
+  "law": "Bharatiya Nyaya Sanhita (BNS), 2023",
+  "summary": "Victims of acid attacks are entitled to free medical treatment and compensation.",
+  "steps": [
+    "Call emergency services immediately.",
+    "Get immediate medical treatment.",
+    "Register an FIR.",
+    "Apply for victim compensation.",
+    "Attend court hearings."
+  ],
+  "documents": [
+    "Medical reports",
+    "Identity proof",
+    "FIR copy",
+    "Photographs of injuries"
+  ],
+  "timeline": "Immediate emergency response.",
+  "fees": "No fee."
+},
+
+"human-trafficking": {
+  "courtType": "Police Station / Special Court",
+  "law": "Immoral Traffic (Prevention) Act & Bharatiya Nyaya Sanhita",
+  "summary": "Protection against trafficking for exploitation, forced labour or sexual exploitation.",
+  "steps": [
+    "Inform Police immediately.",
+    "Contact Women Helpline 181.",
+    "Seek rescue and rehabilitation services.",
+    "Participate in investigation."
+  ],
+  "documents": [
+    "Identity proof",
+    "Medical reports",
+    "Evidence",
+    "Witness statements"
+  ],
+  "timeline": "Immediate rescue measures available.",
+  "fees": "No fee."
+},
+
+"domestic-abuse-child": {
+  "courtType": "Child Welfare Committee / Juvenile Justice Board",
+  "law": "Juvenile Justice Act, 2015 & POCSO Act, 2012",
+  "summary": "Protection against physical, emotional or sexual abuse of children within the family.",
+  "steps": [
+    "Call Childline 1098.",
+    "Report the abuse to Police.",
+    "Approach the Child Welfare Committee.",
+    "Provide evidence if available."
+  ],
+  "documents": [
+    "Birth certificate",
+    "Medical reports",
+    "Identity proof",
+    "Evidence"
+  ],
+  "timeline": "Emergency intervention available.",
+  "fees": "No fee."
+},
+
+"protection-order": {
+  "courtType": "Magistrate Court",
+  "law": "Protection of Women from Domestic Violence Act, 2005",
+  "summary": "Protection Orders prevent the respondent from committing further acts of violence or harassment.",
+  "steps": [
+    "File an application through the Protection Officer or directly before the Magistrate.",
+    "Describe the violence suffered.",
+    "Request urgent interim protection.",
+    "Attend the hearing."
+  ],
+  "documents": [
+    "Identity proof",
+    "Evidence of violence",
+    "Medical reports",
+    "Witness statements"
+  ],
+  "timeline": "Interim protection may be granted within a few days.",
+  "fees": "No court fee."
+},
+
+"residence-rights": {
+  "courtType": "Magistrate Court",
+  "law": "Protection of Women from Domestic Violence Act, 2005",
+  "summary": "A woman has the right to reside in the shared household even if she does not own it.",
+  "steps": [
+    "Approach the Protection Officer.",
+    "File an application before the Magistrate.",
+    "Request a Residence Order.",
+    "Attend court hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Marriage proof",
+    "Address proof",
+    "Evidence of domestic relationship"
+  ],
+  "timeline": "Interim relief may be granted quickly.",
+  "fees": "No court fee."
+}
+,
+"streedhan": {
+  "courtType": "Family Court / Magistrate Court",
+  "law": "Protection of Women from Domestic Violence Act, 2005 & Bharatiya Nyaya Sanhita",
+  "summary": "A woman has the legal right to recover her Streedhan (gifts, jewellery, valuables and property received before, during or after marriage).",
+  "steps": [
+    "Prepare a list of Streedhan items.",
+    "Collect bills, photographs or witness details if available.",
+    "File a complaint before the Magistrate or Family Court.",
+    "Seek recovery of property through the court."
+  ],
+  "documents": [
+    "Identity proof",
+    "Marriage proof",
+    "List of Streedhan items",
+    "Bills or photographs",
+    "Witness statements"
+  ],
+  "timeline": "Depends on court proceedings.",
+  "fees": "Nominal court fee."
+},
+
+"inheritance": {
+  "courtType": "Civil Court",
+  "law": "Hindu Succession Act, 1956 (Amended 2005)",
+  "summary": "Women have equal inheritance rights in ancestral and self-acquired property according to applicable personal laws.",
+  "steps": [
+    "Collect property documents.",
+    "Obtain legal heir certificate if required.",
+    "File a partition or succession suit.",
+    "Attend court hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Death certificate",
+    "Property papers",
+    "Legal heir certificate"
+  ],
+  "timeline": "Usually 1–5 years.",
+  "fees": "Depends on property value."
+},
+
+"property-rights": {
+  "courtType": "Civil Court",
+  "law": "Hindu Succession Act, 1956 (Amended 2005)",
+  "summary": "Women have equal rights in property ownership and inheritance under applicable laws.",
+  "steps": [
+    "Collect ownership documents.",
+    "Consult District Legal Services Authority if needed.",
+    "File a civil suit if rights are denied."
+  ],
+  "documents": [
+    "Identity proof",
+    "Property documents",
+    "Revenue records"
+  ],
+  "timeline": "Depends on the case.",
+  "fees": "Varies."
+},
+
+"family-dispute": {
+  "courtType": "Family Court",
+  "law": "Family Courts Act, 1984",
+  "summary": "Family Courts resolve disputes relating to marriage, maintenance, custody and family matters.",
+  "steps": [
+    "File a petition before the Family Court.",
+    "Attend counselling if directed.",
+    "Participate in mediation.",
+    "Attend hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Marriage proof",
+    "Relevant supporting documents"
+  ],
+  "timeline": "Several months to a few years.",
+  "fees": "Nominal."
+},
+
+"marriage-registration": {
+  "courtType": "Marriage Registrar",
+  "law": "Hindu Marriage Act / Special Marriage Act",
+  "summary": "Registering marriage provides legal proof and simplifies access to legal rights.",
+  "steps": [
+    "Book an appointment with the Marriage Registrar.",
+    "Submit required documents.",
+    "Appear with witnesses.",
+    "Collect Marriage Certificate."
+  ],
+  "documents": [
+    "Identity proof",
+    "Address proof",
+    "Passport-size photographs",
+    "Age proof",
+    "Witness identity proofs"
+  ],
+  "timeline": "Usually within a few days to a month.",
+  "fees": "As per State Government rules."
+},
+
+"live-in-rights": {
+  "courtType": "Magistrate Court / Family Court",
+  "law": "Protection of Women from Domestic Violence Act, 2005",
+  "summary": "Women in qualifying live-in relationships may receive legal protection against domestic violence and claim certain reliefs.",
+  "steps": [
+    "File an application under the Domestic Violence Act.",
+    "Provide proof of the relationship.",
+    "Request appropriate relief from the court."
+  ],
+  "documents": [
+    "Identity proof",
+    "Proof of shared residence",
+    "Photographs",
+    "Evidence of relationship"
+  ],
+  "timeline": "Depends upon the case.",
+  "fees": "No court fee under the DV Act."
+},
+
+"legal-aid": {
+  "courtType": "District Legal Services Authority (DLSA)",
+  "law": "Legal Services Authorities Act, 1987",
+  "summary": "Eligible women, children and economically weaker persons can receive free legal assistance.",
+  "steps": [
+    "Visit the nearest DLSA office.",
+    "Submit an application.",
+    "Provide eligibility documents.",
+    "A lawyer will be assigned if eligible."
+  ],
+  "documents": [
+    "Identity proof",
+    "Income certificate (if required)",
+    "Relevant case documents"
+  ],
+  "timeline": "Usually within a few days.",
+  "fees": "Free."
+},
+
+"medical-negligence": {
+  "courtType": "Consumer Commission / Civil Court",
+  "law": "Consumer Protection Act, 2019",
+  "summary": "Patients may seek compensation for negligence by healthcare providers.",
+  "steps": [
+    "Collect all medical records.",
+    "Seek an expert medical opinion if possible.",
+    "File a complaint before the Consumer Commission or Court."
+  ],
+  "documents": [
+    "Medical records",
+    "Bills",
+    "Identity proof",
+    "Expert opinion (if available)"
+  ],
+  "timeline": "Several months to a few years.",
+  "fees": "Depends on claim amount."
+},
+
+"maintenance-parents": {
+  "courtType": "Maintenance Tribunal",
+  "law": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "summary": "Parents and senior citizens can claim maintenance from their children.",
+  "steps": [
+    "File an application before the Maintenance Tribunal.",
+    "Submit proof of relationship.",
+    "Attend hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Age proof",
+    "Relationship proof"
+  ],
+  "timeline": "Normally within 90 days.",
+  "fees": "Nominal."
+},
+
+"senior-citizen": {
+  "courtType": "Maintenance Tribunal",
+  "law": "Maintenance and Welfare of Parents and Senior Citizens Act, 2007",
+  "summary": "Senior citizens are entitled to maintenance and protection from neglect and abuse.",
+  "steps": [
+    "Submit complaint to the Tribunal.",
+    "Provide supporting documents.",
+    "Attend hearings."
+  ],
+  "documents": [
+    "Identity proof",
+    "Age proof",
+    "Evidence of neglect (if available)"
+  ],
+  "timeline": "Usually within 90 days.",
+  "fees": "Nominal."
+},
+
+"other": {
+  "courtType": "Appropriate Court depending on the matter",
+  "law": "Applicable Indian Law",
+  "summary": "If your issue does not fall into any listed category, consult the District Legal Services Authority or an advocate to identify the appropriate legal remedy.",
+  "steps": [
+    "Describe your issue clearly.",
+    "Collect all supporting documents.",
+    "Visit the nearest Legal Services Authority or advocate.",
+    "File the appropriate petition or complaint."
+  ],
+  "documents": [
+    "Identity proof",
+    "Relevant documents",
+    "Supporting evidence"
+  ],
+  "timeline": "Depends upon the case.",
+  "fees": "Varies according to the applicable law."
+}
+,
+"victim-compensation": {
+  "courtType": "District Legal Services Authority (DLSA)",
+  "law": "Victim Compensation Scheme under Section 395 BNSS",
+  "summary": "Victims of serious crimes, including women and children, may receive financial compensation from the State.",
+  "steps": [
+    "Apply through the DLSA or Court.",
+    "Submit FIR and medical records.",
+    "Provide proof of expenses and losses.",
+    "Attend verification if required."
+  ],
+  "documents": [
+    "FIR copy",
+    "Medical reports",
+    "Identity proof",
+    "Bank account details"
+  ],
+  "timeline": "1–6 months.",
+  "fees": "Free."
+},
+
+"free-legal-services": {
+  "courtType": "District Legal Services Authority",
+  "law": "Legal Services Authorities Act, 1987",
+  "summary": "Women, children, SC/ST persons, victims of trafficking and economically weaker persons are entitled to free legal services.",
+  "steps": [
+    "Visit the nearest DLSA office.",
+    "Fill the legal aid application.",
+    "Submit identity proof.",
+    "A lawyer will be assigned if eligible."
+  ],
+  "documents": [
+    "Identity proof",
+    "Income proof (if required)",
+    "Case documents"
+  ],
+  "timeline": "Usually within a few days.",
+  "fees": "Free."
+},
+
+"fir-refused": {
+  "courtType": "Superintendent of Police / Magistrate Court",
+  "law": "BNSS, 2023",
+  "summary": "If police refuse to register an FIR, you can approach senior police officers or the Magistrate.",
+  "steps": [
+    "Request the police to provide refusal in writing.",
+    "Send a written complaint to the Superintendent of Police.",
+    "Approach the Magistrate if no action is taken.",
+    "Keep copies of all complaints."
+  ],
+  "documents": [
+    "Written complaint",
+    "Identity proof",
+    "Evidence"
+  ],
+  "timeline": "Immediate escalation possible.",
+  "fees": "No fee."
+},
+
+"police-inaction": {
+  "courtType": "Superintendent of Police / High Court",
+  "law": "BNSS, 2023",
+  "summary": "If the police fail to investigate properly, higher authorities or courts can be approached.",
+  "steps": [
+    "Submit a written complaint to the SP.",
+    "Keep acknowledgement copies.",
+    "Approach the Magistrate or High Court if required."
+  ],
+  "documents": [
+    "Complaint copy",
+    "FIR copy",
+    "Evidence"
+  ],
+  "timeline": "Depends on the authority.",
+  "fees": "No fee."
+},
+
+"one-stop-centre": {
+  "courtType": "One Stop Centre (Sakhi Centre)",
+  "law": "Mission Shakti Scheme",
+  "summary": "Provides integrated support including legal aid, counselling, shelter and medical assistance for women facing violence.",
+  "steps": [
+    "Visit the nearest One Stop Centre.",
+    "Explain your situation.",
+    "Receive counselling and legal support.",
+    "Get assistance in filing complaints if required."
+  ],
+  "documents": [
+    "Identity proof (if available)"
+  ],
+  "timeline": "Immediate assistance.",
+  "fees": "Free."
+},
+
+"witness-protection": {
+  "courtType": "Sessions Court / High Court",
+  "law": "Witness Protection Scheme, 2018",
+  "summary": "Witnesses facing threats may request protection from the Court.",
+  "steps": [
+    "Inform the Investigating Officer.",
+    "Submit an application to the Court.",
+    "Provide details of the threat."
+  ],
+  "documents": [
+    "Identity proof",
+    "FIR copy",
+    "Threat evidence"
+  ],
+  "timeline": "Emergency protection may be granted quickly.",
+  "fees": "No fee."
+},
+
+"mediation": {
+  "courtType": "Family Court Mediation Centre",
+  "law": "Family Courts Act, 1984",
+  "summary": "Many family disputes can be resolved through mediation before trial.",
+  "steps": [
+    "Request mediation.",
+    "Attend mediation sessions.",
+    "Sign settlement if agreement is reached."
+  ],
+  "documents": [
+    "Identity proof",
+    "Relevant case papers"
+  ],
+  "timeline": "Usually completed within a few weeks.",
+  "fees": "Usually free or nominal."
+},
+
+"appeal": {
+  "courtType": "Appellate Court",
+  "law": "Applicable Procedural Law",
+  "summary": "If dissatisfied with a court's decision, you may file an appeal before a higher court within the prescribed limitation period.",
+  "steps": [
+    "Obtain certified copy of the judgment.",
+    "Consult a lawyer.",
+    "File the appeal within the limitation period.",
+    "Attend hearings."
+  ],
+  "documents": [
+    "Certified copy of judgment",
+    "Identity proof",
+    "Appeal petition"
+  ],
+  "timeline": "Depends on the court.",
+  "fees": "As per court rules."
+},
+
+"women-helpline": {
+  "courtType": "Emergency Support Service",
+  "law": "Government Helpline Services",
+  "summary": "Women facing violence or harassment can seek immediate assistance through government helplines.",
+  "steps": [
+    "Call the appropriate helpline.",
+    "Provide your location.",
+    "Describe the emergency.",
+    "Follow the responder's instructions."
+  ],
+  "documents": [
+    "No documents required during emergency."
+  ],
+  "timeline": "Immediate.",
+  "fees": "Free."
+}
+
   },
   "districtInfo": {
     "up:lucknow": {
@@ -302,4 +2025,515 @@
     "legalAid": "District Legal Services Authority (DLSA) — call 15100",
     "helpline": "181 (Women Helpline) | 100 (Police)"
   }
+  ,
+"chhattisgarh:raipur": {
+  "primaryCourt": "District & Sessions Court, Raipur",
+  "familyCourt": "Family Court, Raipur",
+  "address": "Civil Lines, Raipur, Chhattisgarh – 492001",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Raipur – District Court Campus",
+  "helpline": "181"
+},
+
+"chhattisgarh:bilaspur": {
+  "primaryCourt": "District & Sessions Court, Bilaspur",
+  "familyCourt": "Family Court, Bilaspur",
+  "address": "Court Road, Bilaspur, Chhattisgarh – 495001",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Bilaspur",
+  "helpline": "181"
+},
+
+"odisha:bhubaneswar": {
+  "primaryCourt": "District & Sessions Court, Khordha",
+  "familyCourt": "Family Court, Bhubaneswar",
+  "address": "Unit-3, Bhubaneswar, Odisha – 751001",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Section",
+  "legalAid": "DLSA Khordha",
+  "helpline": "181"
+},
+
+"odisha:cuttack": {
+  "primaryCourt": "District & Sessions Court, Cuttack",
+  "familyCourt": "Family Court, Cuttack",
+  "address": "Chandi Chowk, Cuttack, Odisha – 753002",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Court Filing Counter",
+  "legalAid": "DLSA Cuttack",
+  "helpline": "181"
+},
+
+"assam:guwahati": {
+  "primaryCourt": "District & Sessions Court, Kamrup Metro",
+  "familyCourt": "Family Court, Guwahati",
+  "address": "Panbazar, Guwahati, Assam – 781001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Branch",
+  "legalAid": "DLSA Kamrup Metro",
+  "helpline": "181"
+},
+
+"assam:silchar": {
+  "primaryCourt": "District & Sessions Court, Cachar",
+  "familyCourt": "Family Court, Silchar",
+  "address": "Court Compound, Silchar, Assam – 788001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Cachar",
+  "helpline": "181"
+},
+
+"maharashtra:mumbai": {
+  "primaryCourt": "City Civil & Sessions Court, Mumbai",
+  "familyCourt": "Family Court, Bandra",
+  "address": "Fort, Mumbai, Maharashtra – 400001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Mumbai",
+  "helpline": "181"
+},
+
+"maharashtra:pune": {
+  "primaryCourt": "District & Sessions Court, Pune",
+  "familyCourt": "Family Court, Pune",
+  "address": "Shivajinagar, Pune, Maharashtra – 411005",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Central Filing Counter",
+  "legalAid": "DLSA Pune",
+  "helpline": "181"
+},
+
+"maharashtra:nagpur": {
+  "primaryCourt": "District & Sessions Court, Nagpur",
+  "familyCourt": "Family Court, Nagpur",
+  "address": "Civil Lines, Nagpur, Maharashtra – 440001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Nagpur",
+  "helpline": "181"
+},
+
+"gujarat:ahmedabad": {
+  "primaryCourt": "City Civil & Sessions Court, Ahmedabad",
+  "familyCourt": "Family Court, Ahmedabad",
+  "address": "Ashram Road, Ahmedabad, Gujarat – 380009",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Section",
+  "legalAid": "DLSA Ahmedabad",
+  "helpline": "181"
+},
+
+"gujarat:surat": {
+  "primaryCourt": "District & Sessions Court, Surat",
+  "familyCourt": "Family Court, Surat",
+  "address": "Athwalines, Surat, Gujarat – 395001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Surat",
+  "helpline": "181"
+},
+
+"goa:panaji": {
+  "primaryCourt": "District & Sessions Court, Panaji",
+  "familyCourt": "Family Court, Panaji",
+  "address": "Altinho, Panaji, Goa – 403001",
+  "timings": "10:00 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA North Goa",
+  "helpline": "181"
+},
+
+"karnataka:bengaluru": {
+  "primaryCourt": "City Civil & Sessions Court, Bengaluru",
+  "familyCourt": "Family Court, Bengaluru",
+  "address": "City Civil Court Complex, Bengaluru – 560001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Section",
+  "legalAid": "DLSA Bengaluru Urban",
+  "helpline": "181"
+},
+
+"karnataka:mysuru": {
+  "primaryCourt": "District & Sessions Court, Mysuru",
+  "familyCourt": "Family Court, Mysuru",
+  "address": "Court Road, Mysuru – 570001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Mysuru",
+  "helpline": "181"
+},
+
+"kerala:thiruvananthapuram": {
+  "primaryCourt": "District & Sessions Court, Thiruvananthapuram",
+  "familyCourt": "Family Court, Thiruvananthapuram",
+  "address": "Vanchiyoor, Thiruvananthapuram – 695035",
+  "timings": "10:15 AM – 4:45 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Branch",
+  "legalAid": "DLSA Thiruvananthapuram",
+  "helpline": "181"
+},
+
+"kerala:kochi": {
+  "primaryCourt": "District & Sessions Court, Ernakulam",
+  "familyCourt": "Family Court, Ernakulam",
+  "address": "Ernakulam Court Complex, Kochi – 682011",
+  "timings": "10:15 AM – 4:45 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Ernakulam",
+  "helpline": "181"
+},
+
+"tamil-nadu:chennai": {
+  "primaryCourt": "City Civil Court, Chennai",
+  "familyCourt": "Family Court, Chennai",
+  "address": "Parrys Corner, Chennai – 600104",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Chennai",
+  "helpline": "181"
+},
+
+"tamil-nadu:coimbatore": {
+  "primaryCourt": "District & Sessions Court, Coimbatore",
+  "familyCourt": "Family Court, Coimbatore",
+  "address": "Court Complex, Coimbatore – 641018",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Coimbatore",
+  "helpline": "181"
+},
+
+"telangana:hyderabad": {
+  "primaryCourt": "City Civil Court, Hyderabad",
+  "familyCourt": "Family Court, Hyderabad",
+  "address": "Nampally, Hyderabad – 500001",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Hyderabad",
+  "helpline": "181"
+},
+
+"andhra-pradesh:vijayawada": {
+  "primaryCourt": "District & Sessions Court, Vijayawada",
+  "familyCourt": "Family Court, Vijayawada",
+  "address": "Governorpet, Vijayawada – 520002",
+  "timings": "10:30 AM – 5:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA NTR District",
+  "helpline": "181"
+}
+,
+"delhi:new-delhi": {
+  "primaryCourt": "Patiala House Courts",
+  "familyCourt": "Family Court, Patiala House",
+  "address": "India Gate, New Delhi – 110001",
+  "timings": "10:00 AM – 4:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA New Delhi, Patiala House Court",
+  "helpline": "181"
+},
+
+"delhi:rohini": {
+  "primaryCourt": "Rohini District Court",
+  "familyCourt": "Family Court, Rohini",
+  "address": "Sector 15, Rohini, Delhi – 110089",
+  "timings": "10:00 AM – 4:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Rohini",
+  "helpline": "181"
+},
+
+"delhi:dwarka": {
+  "primaryCourt": "Dwarka District Court",
+  "familyCourt": "Family Court, Dwarka",
+  "address": "Sector 10, Dwarka, Delhi – 110075",
+  "timings": "10:00 AM – 4:00 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Branch",
+  "legalAid": "DLSA Dwarka",
+  "helpline": "181"
+},
+
+"delhi:saket": {
+  "primaryCourt": "Saket District Court",
+  "familyCourt": "Family Court, Saket",
+  "address": "Saket Court Complex, New Delhi – 110017",
+  "timings": "10:00 AM – 4:00 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA South Delhi",
+  "helpline": "181"
+},
+
+"chandigarh:chandigarh": {
+  "primaryCourt": "District & Sessions Court, Chandigarh",
+  "familyCourt": "Family Court, Chandigarh",
+  "address": "Sector 43, Chandigarh – 160022",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Chandigarh",
+  "helpline": "181"
+},
+
+"punjab:amritsar": {
+  "primaryCourt": "District & Sessions Court, Amritsar",
+  "familyCourt": "Family Court, Amritsar",
+  "address": "Court Road, Amritsar, Punjab – 143001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Amritsar",
+  "helpline": "181"
+},
+
+"punjab:ludhiana": {
+  "primaryCourt": "District & Sessions Court, Ludhiana",
+  "familyCourt": "Family Court, Ludhiana",
+  "address": "Mini Secretariat, Ludhiana – 141001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Ludhiana",
+  "helpline": "181"
+},
+
+"punjab:jalandhar": {
+  "primaryCourt": "District & Sessions Court, Jalandhar",
+  "familyCourt": "Family Court, Jalandhar",
+  "address": "Court Complex, Jalandhar – 144001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Jalandhar",
+  "helpline": "181"
+},
+
+"haryana:gurugram": {
+  "primaryCourt": "District & Sessions Court, Gurugram",
+  "familyCourt": "Family Court, Gurugram",
+  "address": "Rajiv Chowk, Gurugram – 122001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Gurugram",
+  "helpline": "181"
+},
+
+"haryana:faridabad": {
+  "primaryCourt": "District & Sessions Court, Faridabad",
+  "familyCourt": "Family Court, Faridabad",
+  "address": "Sector 12, Faridabad – 121007",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Faridabad",
+  "helpline": "181"
+},
+
+"haryana:panipat": {
+  "primaryCourt": "District & Sessions Court, Panipat",
+  "familyCourt": "Family Court, Panipat",
+  "address": "Court Complex, Panipat – 132103",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Panipat",
+  "helpline": "181"
+},
+
+"himachal-pradesh:shimla": {
+  "primaryCourt": "District & Sessions Court, Shimla",
+  "familyCourt": "Family Court, Shimla",
+  "address": "Chaura Maidan, Shimla – 171004",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Shimla",
+  "helpline": "181"
+},
+
+"himachal-pradesh:dharamshala": {
+  "primaryCourt": "District & Sessions Court, Kangra",
+  "familyCourt": "Family Court, Dharamshala",
+  "address": "District Court Complex, Dharamshala – 176215",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Kangra",
+  "helpline": "181"
+},
+
+"uttarakhand:dehradun": {
+  "primaryCourt": "District & Sessions Court, Dehradun",
+  "familyCourt": "Family Court, Dehradun",
+  "address": "Court Road, Dehradun – 248001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Dehradun",
+  "helpline": "181"
+},
+
+"uttarakhand:haridwar": {
+  "primaryCourt": "District & Sessions Court, Haridwar",
+  "familyCourt": "Family Court, Haridwar",
+  "address": "Roshnabad, Haridwar – 249403",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Haridwar",
+  "helpline": "181"
+},
+
+"jammu-kashmir:srinagar": {
+  "primaryCourt": "District & Sessions Court, Srinagar",
+  "familyCourt": "Family Court, Srinagar",
+  "address": "Mominabad, Srinagar – 190001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Srinagar",
+  "helpline": "181"
+},
+
+"jammu-kashmir:jammu": {
+  "primaryCourt": "District & Sessions Court, Jammu",
+  "familyCourt": "Family Court, Jammu",
+  "address": "Janipur, Jammu – 180007",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Jammu",
+  "helpline": "181"
+},
+
+"ladakh:leh": {
+  "primaryCourt": "District & Sessions Court, Leh",
+  "familyCourt": "Family Court, Leh",
+  "address": "District Court Complex, Leh – 194101",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Leh",
+  "helpline": "181"
+}
+,
+"west-bengal:kolkata": {
+  "primaryCourt": "City Civil & Sessions Court, Kolkata",
+  "familyCourt": "Family Court, Kolkata",
+  "address": "B.B.D. Bagh, Kolkata, West Bengal – 700001",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Kolkata",
+  "helpline": "181"
+},
+
+"west-bengal:howrah": {
+  "primaryCourt": "District & Sessions Court, Howrah",
+  "familyCourt": "Family Court, Howrah",
+  "address": "Howrah Court Complex, West Bengal – 711101",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Howrah",
+  "helpline": "181"
+},
+
+"west-bengal:siliguri": {
+  "primaryCourt": "District & Sessions Court, Darjeeling",
+  "familyCourt": "Family Court, Siliguri",
+  "address": "Siliguri Court Complex – 734001",
+  "timings": "10:30 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Darjeeling",
+  "helpline": "181"
+},
+
+"sikkim:gangtok": {
+  "primaryCourt": "District & Sessions Court, Gangtok",
+  "familyCourt": "Family Court, Gangtok",
+  "address": "District Court Complex, Gangtok – 737101",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Gangtok",
+  "helpline": "181"
+},
+
+"arunachal-pradesh:itanagar": {
+  "primaryCourt": "District & Sessions Court, Itanagar",
+  "familyCourt": "Family Court, Itanagar",
+  "address": "Naharlagun Court Complex, Itanagar – 791111",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Papum Pare",
+  "helpline": "181"
+},
+
+"assam:dibrugarh": {
+  "primaryCourt": "District & Sessions Court, Dibrugarh",
+  "familyCourt": "Family Court, Dibrugarh",
+  "address": "Court Road, Dibrugarh – 786001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Dibrugarh",
+  "helpline": "181"
+},
+
+"assam:jorhat": {
+  "primaryCourt": "District & Sessions Court, Jorhat",
+  "familyCourt": "Family Court, Jorhat",
+  "address": "Court Complex, Jorhat – 785001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Jorhat",
+  "helpline": "181"
+},
+
+"meghalaya:shillong": {
+  "primaryCourt": "District & Sessions Court, Shillong",
+  "familyCourt": "Family Court, Shillong",
+  "address": "Lower Lachumiere, Shillong – 793001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA East Khasi Hills",
+  "helpline": "181"
+},
+
+"nagaland:kohima": {
+  "primaryCourt": "District & Sessions Court, Kohima",
+  "familyCourt": "Family Court, Kohima",
+  "address": "Court Complex, Kohima – 797001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Kohima",
+  "helpline": "181"
+},
+
+"nagaland:dimapur": {
+  "primaryCourt": "District & Sessions Court, Dimapur",
+  "familyCourt": "Family Court, Dimapur",
+  "address": "District Court Complex, Dimapur – 797112",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Dimapur",
+  "helpline": "181"
+},
+
+"manipur:imphal": {
+  "primaryCourt": "District & Sessions Court, Imphal",
+  "familyCourt": "Family Court, Imphal",
+  "address": "Lamphelpat, Imphal – 795004",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA Imphal West",
+  "helpline": "181"
+},
+
+"mizoram:aizawl": {
+  "primaryCourt": "District & Sessions Court, Aizawl",
+  "familyCourt": "Family Court, Aizawl",
+  "address": "Court Complex, Aizawl – 796001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Main Filing Counter",
+  "legalAid": "DLSA Aizawl",
+  "helpline": "181"
+},
+
+"tripura:agartala": {
+  "primaryCourt": "District & Sessions Court, Agartala",
+  "familyCourt": "Family Court, Agartala",
+  "address": "Court Complex, Agartala – 799001",
+  "timings": "10:00 AM – 4:30 PM (Mon–Fri)",
+  "filingCounter": "Ground Floor Filing Counter",
+  "legalAid": "DLSA West Tripura",
+  "helpline": "181"
+}
+
 }
