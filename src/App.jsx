@@ -5,6 +5,7 @@ import AILegalAssistant from './pages/AILegalAssistant'
 import PetitionGenerator from './pages/PetitionGenerator'
 import CourtNavigation from './pages/CourtNavigation'
 import ResourceCenter from './pages/ResourceCenter'
+import ResourceDetails from "./pages/ResourceDetails";
 
 export default function App() {
   return (
@@ -16,12 +17,9 @@ export default function App() {
           <Route path="petition" element={<PetitionGenerator />} />
           <Route path="court" element={<CourtNavigation />} />
           <Route path="resources" element={<ResourceCenter />} />
-          <Route path="/resources" element={<Resources />} />
+          <Route path="/resources/:id" element={<ResourceDetails />}/>
 
-<Route
-path="/resources/:id"
-element={<ResourceDetails />}
-/>
+
         </Route>
       </Routes>
     </BrowserRouter>
