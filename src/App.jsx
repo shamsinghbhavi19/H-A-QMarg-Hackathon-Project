@@ -16,6 +16,12 @@ export default function App() {
           <Route path="petition" element={<PetitionGenerator />} />
           <Route path="court" element={<CourtNavigation />} />
           <Route path="resources" element={<ResourceCenter />} />
+          <Route path="/resources" element={<Resources />} />
+
+<Route
+path="/resources/:id"
+element={<ResourceDetails />}
+/>
         </Route>
       </Routes>
     </BrowserRouter>

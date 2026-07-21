@@ -1,0 +1,189 @@
+{
+  "resources": [
+    {
+      "id": "maintenance",
+      "title": "Maintenance Rights of Women",
+      "titleHi": "महिलाओं का भरण-पोषण अधिकार",
+      "category": "Family Law",
+      "readTime": "5 min read",
+      "overview": "A wife who is unable to maintain herself can claim maintenance from her husband under the relevant provisions of Indian law.",
+      "law": "Section 125 CrPC / Bharatiya Nagarik Suraksha Sanhita (BNSS), Protection of Women from Domestic Violence Act, 2005",
+      "documents": [
+        "Aadhaar Card",
+        "Marriage Certificate",
+        "Income Proof",
+        "Bank Statements",
+        "Passport-size Photographs"
+      ],
+      "steps": [
+        "Visit the Family Court.",
+        "Collect the maintenance application form.",
+        "Attach supporting documents.",
+        "Submit the application.",
+        "Attend court hearings."
+      ],
+      "timeline": "30–60 days for first hearing.",
+      "fees": "Nominal Court Fee",
+      "helpline": "181 (Women Helpline)",
+      "faqs": [
+        {
+          "question": "Can a working woman claim maintenance?",
+          "answer": "Yes, depending upon her income and circumstances."
+        }
+      ]
+    },
+
+    {
+      "id": "domestic-violence",
+      "title": "Protection from Domestic Violence",
+      "titleHi": "घरेलू हिंसा से सुरक्षा",
+      "category": "Women Safety",
+      "readTime": "6 min read",
+      "overview": "The Domestic Violence Act protects women against physical, emotional, sexual, verbal and economic abuse.",
+      "law": "Protection of Women from Domestic Violence Act, 2005",
+      "documents": [
+        "Identity Proof",
+        "Medical Reports",
+        "Photographs",
+        "Witness Details",
+        "Police Complaint (if any)"
+      ],
+      "steps": [
+        "Contact Women Helpline 181.",
+        "Meet the Protection Officer.",
+        "File complaint before Magistrate.",
+        "Request Protection Order.",
+        "Attend hearings."
+      ],
+      "timeline": "Emergency orders may be issued quickly.",
+      "fees": "No Court Fee",
+      "helpline": "181",
+      "faqs": [
+        {
+          "question": "Can I stay in my matrimonial home?",
+          "answer": "Yes. The Act protects your right to residence."
+        }
+      ]
+    },
+
+    {
+      "id": "fir-guide",
+      "title": "How to File an FIR",
+      "titleHi": "एफआईआर कैसे दर्ज करें",
+      "category": "Legal Procedure",
+      "readTime": "5 min read",
+      "overview": "Women can file an FIR for cognizable offences at any police station.",
+      "law": "Section 154 CrPC / BNSS",
+      "documents": [
+        "Identity Proof",
+        "Evidence",
+        "Medical Report",
+        "Witness Information"
+      ],
+      "steps": [
+        "Visit nearest Police Station.",
+        "Explain complete incident.",
+        "Submit available evidence.",
+        "Read FIR carefully.",
+        "Collect free FIR copy."
+      ],
+      "timeline": "Immediately",
+      "fees": "No Fee",
+      "helpline": "112, 181",
+      "faqs": [
+        {
+          "question": "Can police refuse to register FIR?",
+          "answer": "No, for cognizable offences."
+        }
+      ]
+    },
+
+    {
+      "id": "child-custody",
+      "title": "Child Custody Rights",
+      "titleHi": "बच्चे की कस्टडी",
+      "category": "Family Law",
+      "readTime": "7 min read",
+      "overview": "Parents can approach Family Court for custody of minor children.",
+      "law": "Guardian and Wards Act, 1890",
+      "documents": [
+        "Birth Certificate",
+        "Identity Proof",
+        "Income Proof",
+        "School Records"
+      ],
+      "steps": [
+        "File custody petition.",
+        "Submit documents.",
+        "Attend mediation.",
+        "Appear before Judge."
+      ],
+      "timeline": "3–12 Months",
+      "fees": "Nominal",
+      "helpline": "15100",
+      "faqs": [
+        {
+          "question": "Who gets child custody?",
+          "answer": "The court decides based on the child's welfare."
+        }
+      ]
+    },
+
+    {
+      "id": "property-rights",
+      "title": "Property Rights of Women",
+      "titleHi": "महिलाओं के संपत्ति अधिकार",
+      "category": "Property Law",
+      "readTime": "6 min read",
+      "overview": "Daughters have equal rights in ancestral property.",
+      "law": "Hindu Succession (Amendment) Act, 2005",
+      "documents": [
+        "Property Papers",
+        "Identity Proof",
+        "Legal Heir Certificate"
+      ],
+      "steps": [
+        "Collect ownership documents.",
+        "Consult Legal Aid.",
+        "File suit if required."
+      ],
+      "timeline": "Depends on case",
+      "fees": "Court Fee Applicable",
+      "helpline": "15100",
+      "faqs": [
+        {
+          "question": "Can daughters inherit property?",
+          "answer": "Yes. Daughters have equal coparcenary rights."
+        }
+      ]
+    },
+
+    {
+      "id": "legal-aid",
+      "title": "Free Legal Aid",
+      "titleHi": "निःशुल्क कानूनी सहायता",
+      "category": "Legal Services",
+      "readTime": "4 min read",
+      "overview": "Women, children and economically weaker sections are entitled to free legal aid.",
+      "law": "Legal Services Authorities Act, 1987",
+      "documents": [
+        "Identity Proof",
+        "Income Certificate (if required)"
+      ],
+      "steps": [
+        "Visit DLSA Office.",
+        "Submit application.",
+        "Meet Legal Aid Lawyer."
+      ],
+      "timeline": "Usually within a few days.",
+      "fees": "Free",
+      "helpline": "15100",
+      "faqs": [
+        {
+          "question": "Who is eligible?",
+          "answer": "Women are eligible irrespective of income."
+        }
+      ]
+    }
+  ]
+}

@@ -13,15 +13,47 @@ import Button from '../components/Button'
 
 const caseTypes = [
   { value: '', label: 'Select case type' },
+
   { value: 'maintenance', label: 'Maintenance Petition (Section 125 CrPC)' },
   { value: 'domestic-violence', label: 'Domestic Violence Complaint (PWDVA 2005)' },
   { value: 'divorce', label: 'Divorce Petition' },
-  { value: 'harassment', label: 'Workplace Harassment (POSH Act 2013)' },
+  { value: 'dowry', label: 'Dowry Harassment Complaint' },
   { value: 'custody', label: 'Child Custody Petition' },
   { value: 'property', label: 'Property Partition Suit' },
-  { value: 'dowry', label: 'Dowry Harassment Complaint' },
+  { value: 'harassment', label: 'Workplace Harassment (POSH Act 2013)' },
+
+  // Women's Rights
+  { value: 'sexual-harassment', label: 'Sexual Harassment Complaint' },
+  { value: 'stalking', label: 'Stalking Complaint' },
+  { value: 'cybercrime', label: 'Cyber Crime Against Women' },
+  { value: 'rape', label: 'Rape / Sexual Assault Complaint' },
+  { value: 'acid-attack', label: 'Acid Attack Compensation' },
+  { value: 'trafficking', label: 'Human Trafficking Complaint' },
+  { value: 'right-to-residence', label: 'Right to Residence under DV Act' },
+  { value: 'protection-order', label: 'Protection Order Application' },
+  { value: 'residence-order', label: 'Residence Order Application' },
+  { value: 'monetary-relief', label: 'Monetary Relief under DV Act' },
+  { value: 'compensation', label: 'Compensation Application' },
+
+  // Family Matters
+  { value: 'child-support', label: 'Child Maintenance Petition' },
+  { value: 'guardianship', label: 'Guardianship Petition' },
+  { value: 'adoption', label: 'Adoption Petition' },
+  
+
+  // Minor Girls
+  { value: 'pocso', label: 'POCSO Complaint (Minor Sexual Abuse)' },
+  { value: 'child-marriage', label: 'Child Marriage Complaint' },
+  { value: 'missing-child', label: 'Missing Girl Child Complaint' },
+  { value: 'kidnapping', label: 'Kidnapping of Minor Complaint' },
+  { value: 'juvenile', label: 'Juvenile Justice Matter' },
+
+  // Legal Assistance
+  { value: 'fir', label: 'FIR Registration Assistance' },
+  { value: 'legal-aid', label: 'Free Legal Aid Application' },
+
   { value: 'other', label: 'Other' },
-]
+];
 
 const caseTypeLabels = Object.fromEntries(
   caseTypes.filter((t) => t.value).map((t) => [t.value, t.label]),

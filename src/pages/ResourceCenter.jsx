@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from 'react'
 import {
   BookOpen,
@@ -22,7 +23,7 @@ const categories = [
 
 const resources = [
   {
-    id: 1,
+    id: "domestic-violence",
     category: 'rights',
     title: 'Your Rights Under Domestic Violence Act',
     titleHi: 'घरेलू हिंसा अधिनियम के तहत आपके अधिकार',
@@ -30,7 +31,7 @@ const resources = [
     readTime: '8 min read',
   },
   {
-    id: 2,
+    id:  "property-rights",
     category: 'rights',
     title: 'Property Rights for Daughters',
     titleHi: 'बेटियों के संपत्ति अधिकार',
@@ -38,7 +39,7 @@ const resources = [
     readTime: '6 min read',
   },
   {
-    id: 3,
+    id:  "maintenance",
     category: 'rights',
     title: 'Maintenance Rights After Separation',
     titleHi: 'अलगाव के बाद भरण-पोषण अधिकार',
@@ -46,7 +47,7 @@ const resources = [
     readTime: '7 min read',
   },
   {
-    id: 4,
+    id:  "fir-guide",
     category: 'guides',
     title: 'How to File an FIR for Harassment',
     titleHi: 'उत्पीड़न की FIR कैसे दर्ज करें',
@@ -54,7 +55,7 @@ const resources = [
     readTime: '5 min read',
   },
   {
-    id: 5,
+    id: "protection-order",
     category: 'guides',
     title: 'Getting a Restraining Order',
     titleHi: 'निषेधाज्ञा कैसे प्राप्त करें',
@@ -62,7 +63,7 @@ const resources = [
     readTime: '6 min read',
   },
   {
-    id: 6,
+    id: "mutual-divorce",
     category: 'guides',
     title: 'Mutual Consent Divorce Process',
     titleHi: 'आपसी सहमति से तलाक की प्रक्रिया',
@@ -70,7 +71,7 @@ const resources = [
     readTime: '10 min read',
   },
   {
-    id: 7,
+    id: "women-helpline",
     category: 'helplines',
     title: 'National Women Helpline — 181',
     titleHi: 'राष्ट्रीय महिला हेल्पलाइन',
@@ -79,7 +80,7 @@ const resources = [
     phone: '181',
   },
   {
-    id: 8,
+    id: "ncw",
     category: 'helplines',
     title: 'National Commission for Women',
     titleHi: 'राष्ट्रीय महिला आयोग',
@@ -88,7 +89,7 @@ const resources = [
     phone: '7827170170',
   },
   {
-    id: 9,
+    id: "legal-aid",
     category: 'helplines',
     title: 'Legal Services Authority — Free Legal Aid',
     titleHi: 'निःशुल्क कानूनी सहायता',
@@ -97,7 +98,7 @@ const resources = [
     phone: '15100',
   },
   {
-    id: 10,
+    id: "affidavit-template",
     category: 'templates',
     title: 'Affidavit Template for Court',
     titleHi: 'अदालत के लिए शपथ पत्र',
@@ -105,7 +106,7 @@ const resources = [
     readTime: 'Template',
   },
   {
-    id: 11,
+    id: "complaint-letter",
     category: 'templates',
     title: 'Complaint Letter to Police Station',
     titleHi: 'थाना प्रभारी को शिकायत पत्र',
@@ -113,7 +114,7 @@ const resources = [
     readTime: 'Template',
   },
   {
-    id: 12,
+    id: "legal-notice",
     category: 'templates',
     title: 'Legal Notice Format',
     titleHi: 'कानूनी नोटिस प्रारूप',
@@ -259,13 +260,13 @@ export default function ResourceCenter() {
                     {resource.phone}
                   </a>
                 ) : (
-                  <button
-                    type="button"
-                    className="inline-flex items-center gap-1 text-xs font-medium text-primary-600 hover:text-primary-700"
-                  >
-                    Read More
-                    <ExternalLink className="w-3 h-3" aria-hidden="true" />
-                  </button>
+                  <Link
+  to={`/resources/${resource.id}`}
+  className="inline-flex items-center gap-1 text-xs font-medium text-primary-600 hover:text-primary-700"
+>
+  Read More
+  <ExternalLink className="w-3 h-3" />
+</Link>
                 )}
               </div>
             </Card>
